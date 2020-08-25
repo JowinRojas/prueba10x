@@ -1,4 +1,4 @@
-
+//this function fill the table
 (function fillltable(){
 	let request = new Request("./JsonTest.json");
 	fetch(request).then(function(resp){
@@ -20,7 +20,7 @@
 	});
 })();
 
-//rellenar el modal
+//this function search in the json file
 function searchbusiness(){
 	var keyword = document.getElementById('searchbusiness').value;
 
@@ -35,13 +35,15 @@ function searchbusiness(){
 			if (keyword == name || keyword == author) {
 				document.getElementById('tr'+i).setAttribute("class", 'bg-primary text-white');
 				document.getElementById('tr'+i).focus();
+			}else{
+				
 			}
 
 		}
 	});
 };
 
-//muestra el cuerpo de la tabla con las noticias en productos.html
+//this function show the table with notices
 (function shownotices(){
 	let request = new Request("./JsonTest.json");
 	fetch(request).then(function(resp){
@@ -76,7 +78,7 @@ function searchbusiness(){
 	});
 })();
 
-//rellenar el modal con la informacion de la noticia que llegue
+//this function put the information of each notices in the modal
 function fillmodal(number){
 	let request = new Request("./JsonTest.json");
 	fetch(request).then(function(resp){
@@ -114,7 +116,7 @@ function fillmodal(number){
 	});
 }
 
-// animacion para la validacion de campos
+//this function animate the inputs in the contact's form
 (function() {
 	'use strict';
 	window.addEventListener('load', function() {
