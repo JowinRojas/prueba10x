@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JowinRojas/prueba10x#readme",
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1"
   }
 }
