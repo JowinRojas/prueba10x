@@ -1,0 +1,21 @@
+body{
+	background-color: #A7A6A5;
+}
+
+.images{
+	background-color: black;
+	opacity: 0.6;
+	box-shadow: 0 0 15px 10px black;
+}
+
+textarea {
+	width: 100%;
+	min-height:100px;
+	max-height: 120px;
+}
+
+.textarea2 {
+	min-width: 160px;
+	max-width: 100%;
+
+}
